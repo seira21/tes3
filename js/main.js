@@ -3,7 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('THIS FLOWERS FOR YOU PRINCES,I LOVE U').split('')
+    const titles = ('FLOWERS FOR YOU PRINCES,I LOVE U').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
@@ -19,4 +19,3 @@ onload = () => {
 
     clearTimeout(c);
   }, 1000);
-};
